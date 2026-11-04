@@ -1,0 +1,34 @@
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Archivos de compilación
+**/target/
+**/build/
+
+# Datos locales de Docker
+docker/**/data/
+docker/**/logs/
+
+# Credenciales y variables de entorno
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Archivos temporales
+*.tmp
+*.bak
